@@ -65,7 +65,7 @@ Desenvolvimento do código a partir do diagrama de classes na atividade 4 utiliz
 **Arquivos:**  
 
 - Código: [Atividade 5](Atividade_5/Clinica_Veterinaria/src)  
-- Documento: `Atividade5/relatorio.pdf`  
+- Documento: [Imagens](Atividade_5/ImagemCodigo_5)  
 
 ---
 
@@ -75,7 +75,7 @@ Desenvolvimento de um novo código usando o mesmo diagrama.
 
 **Arquivos:**  
 - Código: [Atividade 6](Atividade_6/Clinica_Veterinaria_Buscar/src)  
-- Diagrama: `Atividade6/diagrama.png`  
+- Documento: [Imagens](Atividade_6/ImagemCodigo_6) 
 
 ---
 
@@ -84,17 +84,30 @@ Desenvolvimento de um novo código usando o mesmo diagrama.
 Pequena explicação do que foi feito na atividade 7.  
 
 **Arquivos:**  
-- Código: `Atividade7/codigo.java`  
-- Documento: `Atividade7/relatorio.pdf`  
+- Código:  
+- Documento:   
 
 ---
 
-### 8️⃣ Atividade 8: [Título da atividade 8]
+### 8️⃣ Atividade 8:
 **Descrição:**  
 Pequena explicação do que foi feito na atividade 8.  
 
 **Arquivos:**  
-- Código: `Atividade8/codigo.java`  
-- Diagrama: `Atividade8/diagrama.png`  
+- Código:     
 
 ---
+
+### 🚀 Tecnologias Utilizadas
+
+Java 25 ☕
+
+AstahUML – Modelagem UML
+
+GitHub – Versionamento e publicação
+
+---
+
+### 👩‍💻 Autor
+
+Atividades desenvolvidas por Giovanna Marques Rodrigues, estudante da FATEC São José dos Campos.
