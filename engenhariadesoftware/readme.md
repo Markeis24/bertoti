@@ -1,6 +1,6 @@
 # 📚 Meu Repositório de Atividades
 
-Este repositório contém 8 atividades realizadas como parte dos meus estudos em [coloque o curso ou disciplina aqui]. Cada atividade está organizada em sua própria pasta, com código, diagramas ou documentos relacionados.
+Este repositório contém 8 atividades realizadas como parte dos meus estudos em Engenharia de Software. Cada atividade está organizada em sua própria pasta, com código, diagramas ou documentos relacionados.
 
 ---
 
@@ -69,9 +69,9 @@ Desenvolvimento do código a partir do diagrama de classes na atividade 4 utiliz
 
 ---
 
-### 6️⃣ Atividade 6: [Título da atividade 6]
+### 6️⃣ Atividade 6: 
 **Descrição:**  
-Pequena explicação do que foi feito na atividade 6.  
+Desenvolvimento de um novo código usando o mesmo diagrama.  
 
 **Arquivos:**  
 - Código: [Atividade 6](Atividade_6/Clinica_Veterinaria_Buscar/src)  
@@ -79,7 +79,7 @@ Pequena explicação do que foi feito na atividade 6.
 
 ---
 
-### 7️⃣ Atividade 7: [Título da atividade 7]
+### 7️⃣ Atividade 7: 
 **Descrição:**  
 Pequena explicação do que foi feito na atividade 7.  
 
