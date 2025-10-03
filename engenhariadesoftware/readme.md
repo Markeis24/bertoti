@@ -81,7 +81,7 @@ Desenvolvimento de um novo código usando o mesmo diagrama.
 
 ### 7️⃣ Atividade 7: 
 **Descrição:**  
-Pequena explicação do que foi feito na atividade 7.  
+Código feito nas atividades anteriores com a adição do SQLite.  
 
 **Arquivos:**  
 - Código:  
@@ -94,7 +94,8 @@ Pequena explicação do que foi feito na atividade 7.
 Pequena explicação do que foi feito na atividade 8.  
 
 **Arquivos:**  
-- Código:     
+- Código:
+- Documento:    
 
 ---
 
@@ -103,6 +104,8 @@ Pequena explicação do que foi feito na atividade 8.
 Java 25 ☕
 
 AstahUML – Modelagem UML
+
+SQLite 
 
 GitHub – Versionamento e publicação
 
