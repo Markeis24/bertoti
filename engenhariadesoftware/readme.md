@@ -105,7 +105,11 @@ Java 25 ☕
 
 AstahUML – Modelagem UML
 
+Intellij – Desenvolvimento do código
+
 SQLite 
+
+Ollama4j
 
 GitHub – Versionamento e publicação
 
