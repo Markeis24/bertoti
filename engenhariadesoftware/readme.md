@@ -101,17 +101,17 @@ Pequena explicação do que foi feito na atividade 8.
 
 ### 🚀 Tecnologias Utilizadas
 
-Java 25 ☕
+- ☕ **Java 25** 
+    
+-  🧩 **AstahUML** – Modelagem UML  
 
-AstahUML – Modelagem UML
+-  💡 **IntelliJ IDEA** – Desenvolvimento do código  
 
-Intellij – Desenvolvimento do código
+-  🗄️ **SQLite** – Banco de dados  
 
-SQLite 
+-  🤖 **Ollama4j** – Integração com IA local  
 
-Ollama4j
-
-GitHub – Versionamento e publicação
+-  🧭 **GitHub** – Versionamento e publicação 
 
 ---
 
