@@ -91,7 +91,7 @@ Código feito nas atividades anteriores com a adição do SQLite.
 
 ### 8️⃣ Atividade 8:
 **Descrição:**  
-Pequena explicação do que foi feito na atividade 8.  
+Integração do Ollama4j no código da atividade.  
 
 **Arquivos:**  
 - Código:
