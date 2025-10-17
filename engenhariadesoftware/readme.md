@@ -94,8 +94,8 @@ Código feito nas atividades anteriores com a adição do SQLite.
 Integração do Ollama4j no código da atividade.  
 
 **Arquivos:**  
-- Código:
-- Documento:    
+- Código: [Atividade 8](Atividade_8/Ollama)
+- Documento: [Imagens](Atividade_8/Ollama)    
 
 ---
 
