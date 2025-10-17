@@ -26,7 +26,7 @@ Comentar com suas palavras o segundo trecho do livro Software Engineering at Goo
 
 **Resposta:**  
 
-- Eles dizem que a engenharia de software é pensar no software ao longo do tempo. Não é só fazer o código, é manter, melhorar e adaptar ele à medida que a empresa e o sistemma crescem. E para isso, o livro foca em três ideias principas: Tempo e mudança, escala e crescimento e trade-offs e custos.
+- Eles dizem que a engenharia de software é pensar no software ao longo do tempo. Não é só fazer o código, é manter, melhorar e adaptar ele à medida que a empresa e o sistema crescem. E para isso, o livro foca em três ideias principas: Tempo e mudança, escala e crescimento e trade-offs e custos.
 
 ---
 
