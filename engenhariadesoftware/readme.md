@@ -85,7 +85,7 @@ Código feito nas atividades anteriores com a adição do SQLite.
 
 **Arquivos:**  
 - Código: [Atividade 7](Atividade_7/Biblioteca)  
-- Documento: [Imagens](Atividade_7/Biblioteca/Imagem_Codigo_Atividade7)   
+- Documento: [Imagens](Atividade_7/Imagem_Codigo_Atividade7)   
 
 ---
 
