@@ -84,8 +84,8 @@ Desenvolvimento de um novo código usando o mesmo diagrama.
 Código feito nas atividades anteriores com a adição do SQLite.  
 
 **Arquivos:**  
-- Código:  
-- Documento:   
+- Código: [Atividade 7](Atividade_7/Biblioteca)  
+- Documento: [Imagens](Atividade_7/Biblioteca/Imagem_Codigo_Atividade7)   
 
 ---
 
