@@ -7,12 +7,12 @@ public class Main {
 
     public static void main(String[] args) throws OllamaBaseException, IOException, InterruptedException {
         String host = "http://127.0.0.1:11434/";
-        String modelName = "qwen3:1.7b";
+        String modelName = "mistral:latest";
 
         OllamaAPI ollamaAPI = new OllamaAPI(host);
         ollamaAPI.setRequestTimeoutSeconds(60);
         OllamaResult result =
-                ollamaAPI.generate(modelName, "Who am I ?", null);
+                ollamaAPI.generate(modelName, "Who you are ?", null);
 
         System.out.println(result.getResponse());
     }
