@@ -14,7 +14,9 @@ Comentar com suas palavras o primeiro trecho do livro Software Engineering at Go
 
 **Resposta:**  
 
-- O livro começa explicando a diferença entre programar e fazer engenharia de software. Programar é só escrever o código. Engenharia de software é mais sério, envolvendo aplicar teoria e boas práticas para criar sistemas que funcionem bem e durem. Como o software está em tudo hoje em dia, precisa ser feito com mais cuidado, quase como em outras engenharias, tipo civíl ou mecânica. 
+- O livro começa destacando que existe uma diferença clara entre simplesmente programar e realmente fazer engenharia de software. Programar é focado em escrever código, enquanto engenharia de software envolve planejamento, teoria, colaboração e boas práticas para construir sistemas que funcionam de forma confiável e que possam evoluir ao longo do tempo.
+
+Ele também ressalta que o software é intangível — não é algo físico como uma ponte ou um motor — e exatamente por isso exige ainda mais cuidado na sua construção. Por não podermos ver ou tocar o software, seus problemas e impactos nem sempre são óbvios, mas podem afetar milhões de pessoas. Por isso, assim como nas engenharias tradicionais, é necessário seguir processos, organizar o trabalho e pensar na manutenção futura para que o software seja seguro, escalável e duradouro.
 
 ---
 
@@ -26,7 +28,22 @@ Comentar com suas palavras o segundo trecho do livro Software Engineering at Goo
 
 **Resposta:**  
 
-- Eles dizem que a engenharia de software é pensar no software ao longo do tempo. Não é só fazer o código, é manter, melhorar e adaptar ele à medida que a empresa e o sistema crescem. E para isso, o livro foca em três ideias principas: Tempo e mudança, escala e crescimento e trade-offs e custos.
+- No segundo trecho, o livro reforça que engenharia de software não é apenas produzir código, mas principalmente pensar no software ao longo do tempo. Isso significa considerar que todo sistema vai precisar ser corrigido, ampliado, reescrito ou adaptado conforme a empresa cresce e as necessidades mudam.
+
+O autor explica que programar resolve o problema de hoje, mas a engenharia de software precisa garantir que o sistema continue funcionando amanhã, daqui a meses e até anos. Como o software é intangível, ele pode parecer simples por fora, mas internamente acumula complexidade conforme novas funcionalidades são adicionadas — e é aí que o trabalho de engenharia se torna fundamental.
+
+Nesse contexto, o livro apresenta três ideias principais que guiam todo o restante da obra:
+
+***1. Tempo e mudança:***
+Todo software muda continuamente. Por isso, é preciso escrever e organizar código pensando em futura manutenção, legibilidade e adaptação. A mudança é inevitável, então o sistema deve ser construído para suportá-la.
+
+***2. Escala e crescimento:***
+À medida que produtos e equipes crescem, problemas simples se tornam complexos. O livro discute como lidar com grande volume de usuários, dados, serviços e também como coordenar muitos desenvolvedores trabalhando juntos sem gerar caos.
+
+***3. Trade-offs e custos:***
+Cada decisão técnica tem um custo — seja de complexidade, desempenho, manutenção ou tempo de trabalho. Engenheiros precisam equilibrar essas escolhas, entendendo que não existe solução perfeita, mas sim a mais adequada para o longo prazo.
+
+Assim, o foco do trecho é mostrar que engenharia de software é sobre sustentabilidade, organização e decisões inteligentes, sempre pensando no futuro do sistema e não apenas na sua construção inicial.
 
 ---
 
@@ -38,9 +55,32 @@ Listar e explicar 3 exemplos de tradeoffs
 
 **Resposta:**  
 
-- Simplicidade vs flexibilidade;
-- Velocidade vs qualidade;
-- Performace vs legibilidade.  
+***- Simplicidade vs. Flexibilidade***
+
+Simplicidade: um código simples é fácil de entender, manter e testar. Menos partes significa menos chances de erro.
+
+Flexibilidade: um código flexível aceita mais variações, adapta-se a novos requisitos e permite extensões futuras.
+
+Trade-off: quanto mais flexível você tenta tornar um sistema, mais complexidade acaba adicionando (abstrações, interfaces, configurações etc.). Por outro lado, se você busca simplicidade máxima, o sistema fica rígido e difícil de adaptar no futuro.
+Exemplo: criar uma função muito simples, mas que atende apenas um caso específico, versus criar uma função mais genérica que trata vários cenários, porém se torna mais difícil de entender.
+
+***- Velocidade de entrega vs. Qualidade do software***
+
+Velocidade: entregar rápido pode ser crucial para lançamentos, prazos e competição de mercado.
+
+Qualidade: exige testes, revisão, documentação e cuidado com arquitetura.
+
+Trade-off: quando a equipe prioriza velocidade, a qualidade costuma cair (bugs, código apressado, pouca documentação). Quando prioriza qualidade, a entrega leva mais tempo.
+Exemplo: fazer um “protótipo” rápido para atender uma urgência do cliente vs. investir mais dias corrigindo detalhes, testando e estruturalmente melhorando o código.
+
+***- Performance vs. Legibilidade do código***
+
+Performance: otimizações deixam o software mais rápido, consumindo menos memória ou processando mais dados.
+
+Legibilidade: código limpo, organizado e fácil de entender facilita manutenção e evita erros.
+
+Trade-off: otimizações profundas geralmente deixam o código mais complicado, menos legível ou mais difícil de manter. Já um código muito legível pode sacrificar desempenho em partes críticas.
+Exemplo: usar estruturas de dados altamente otimizadas porém complexas, versus usar estruturas simples que qualquer desenvolvedor entende, mas que não entregam o mesmo desempenho.
 
 ---
 
