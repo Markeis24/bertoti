@@ -21,9 +21,21 @@ async function getCoffees() {
   });
 }
 
+// animação
+function showCup() {
+  const cup = document.getElementById("cup");
+  cup.classList.remove("hidden");
+
+  setTimeout(() => {
+    cup.classList.add("hidden");
+  }, 1000);
+}
+
 // adicionar café
 async function addCoffee() {
   const name = document.getElementById("name").value;
+
+  if (!name) return;
 
   await fetch(API, {
     method: "POST",
@@ -36,10 +48,14 @@ async function addCoffee() {
     })
   });
 
+  showCup(); // animação
+
+  document.getElementById("name").value = "";
+
   getCoffees();
 }
 
-// deletar café
+// deletar
 async function deleteCoffee(id) {
   await fetch(API + "/" + id, {
     method: "DELETE"
@@ -48,5 +64,5 @@ async function deleteCoffee(id) {
   getCoffees();
 }
 
-// carregar ao abrir
+// carregar
 getCoffees();
