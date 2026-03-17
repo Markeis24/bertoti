@@ -1,0 +1,4 @@
+CREATE TABLE coffees (
+    id VARCHAR2(50) PRIMARY KEY,
+    name VARCHAR2(100) NOT NULL
+);
