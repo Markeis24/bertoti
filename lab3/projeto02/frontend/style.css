@@ -1,34 +1,29 @@
 body {
   margin: 0;
   font-family: 'Comic Sans MS', cursive;
-  background: linear-gradient(135deg, #ffcc80, #ff8a65);
+  background: radial-gradient(circle, #ffcc80, #ff7043);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* caixa */
+/* caixa principal */
 .game {
   background: #fff3e0;
-  border: 5px solid #ff7043;
-  border-radius: 20px;
+  border: 6px solid #ff5722;
+  border-radius: 25px;
   padding: 30px;
   width: 420px;
-  box-shadow: 0 10px 0 #bf360c;
+  box-shadow: 0 12px 0 #bf360c;
   text-align: center;
   position: relative;
 }
 
-/* cliente */
-.customer {
-  font-size: 40px;
-  animation: walk 3s infinite alternate;
-}
-
-@keyframes walk {
-  from { transform: translateX(-20px); }
-  to { transform: translateX(20px); }
+/* título */
+h1 {
+  color: #d84315;
+  text-shadow: 2px 2px #ffcc80;
 }
 
 /* painel */
@@ -40,44 +35,60 @@ body {
 
 input {
   flex: 1;
-  padding: 10px;
+  padding: 12px;
   border: 3px solid #ff7043;
-  border-radius: 10px;
+  border-radius: 12px;
+  font-size: 14px;
 }
 
 /* botão */
 button {
   background: #ff7043;
   border: none;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 12px;
+  border-radius: 12px;
   color: white;
   cursor: pointer;
   font-weight: bold;
-  box-shadow: 0 4px 0 #bf360c;
+  box-shadow: 0 5px 0 #bf360c;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 button:active {
-  transform: translateY(2px);
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #bf360c;
 }
 
-/* xícara animada */
+/* animação da xícara */
 .cup {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 30px;
-  animation: drop 1s ease forwards;
+  font-size: 35px;
+  animation: fall 0.8s ease forwards;
 }
 
 .hidden {
   display: none;
 }
 
-@keyframes drop {
-  0% { transform: translate(-50%, -50px); opacity: 0; }
-  100% { transform: translate(-50%, 0); opacity: 1; }
+@keyframes fall {
+  0% {
+    transform: translate(-50%, -80px) rotate(-10deg);
+    opacity: 0;
+  }
+  60% {
+    transform: translate(-50%, 10px) rotate(5deg);
+  }
+  100% {
+    transform: translate(-50%, 0) rotate(0);
+    opacity: 1;
+  }
 }
 
 /* lista */
@@ -89,14 +100,29 @@ ul {
 li {
   background: #ffe0b2;
   border: 3px solid #ff7043;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 10px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  animation: pop 0.3s ease;
 }
 
-/* delete */
+/* animação item entrando */
+@keyframes pop {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* botão delete */
 li button {
   background: #e53935;
+  box-shadow: 0 3px 0 #b71c1c;
 }
