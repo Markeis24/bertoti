@@ -1,6 +1,5 @@
 const API = "http://localhost:8080/coffees";
 
-// listar cafés
 async function getCoffees() {
   const res = await fetch(API);
   const data = await res.json();
@@ -21,17 +20,15 @@ async function getCoffees() {
   });
 }
 
-// animação
 function showCup() {
   const cup = document.getElementById("cup");
   cup.classList.remove("hidden");
 
   setTimeout(() => {
     cup.classList.add("hidden");
-  }, 1000);
+  }, 800);
 }
 
-// adicionar café
 async function addCoffee() {
   const name = document.getElementById("name").value;
 
@@ -48,14 +45,12 @@ async function addCoffee() {
     })
   });
 
-  showCup(); // animação
+  showCup();
 
   document.getElementById("name").value = "";
-
   getCoffees();
 }
 
-// deletar
 async function deleteCoffee(id) {
   await fetch(API + "/" + id, {
     method: "DELETE"
@@ -64,5 +59,4 @@ async function deleteCoffee(id) {
   getCoffees();
 }
 
-// carregar
 getCoffees();
