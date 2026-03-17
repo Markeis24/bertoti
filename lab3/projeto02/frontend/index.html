@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Coffee App</title>
+  <title>Coffee App ☕</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>☕ Cafés</h1>
+<div class="container">
 
-<input type="text" id="name" placeholder="Nome do café">
-<button onclick="addCoffee()">Adicionar</button>
+  <h1>☕ Coffee App</h1>
 
-<ul id="list"></ul>
+  <div class="form">
+    <input type="text" id="name" placeholder="Digite o nome do café">
+    <button onclick="addCoffee()">Adicionar</button>
+  </div>
+
+  <ul id="list"></ul>
+
+</div>
 
 <script src="script.js"></script>
 
