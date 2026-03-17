@@ -237,7 +237,7 @@ Você pode:
 Adicione aqui prints do funcionamento:
 
 
-![Tela do sistema](lab3/projeto01/img/tela.png)
+![Tela do sistema](lab3/projeto1/img/tela.png)
 
 
 ---
