@@ -1,31 +1,32 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
-  color: white;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(135deg, #ffcc80, #ff8a65);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* container */
-.container {
-  background: #2b2b2b;
+/* caixa principal */
+.game {
+  background: #fff3e0;
+  border: 5px solid #ff7043;
+  border-radius: 20px;
   padding: 30px;
-  border-radius: 15px;
-  width: 350px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  width: 400px;
+  box-shadow: 0 10px 0 #bf360c;
   text-align: center;
 }
 
 /* título */
 h1 {
   margin-bottom: 20px;
+  color: #d84315;
 }
 
-/* input + botão */
-.form {
+/* painel */
+.panel {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
@@ -34,21 +35,30 @@ h1 {
 input {
   flex: 1;
   padding: 10px;
-  border-radius: 8px;
-  border: none;
+  border: 3px solid #ff7043;
+  border-radius: 10px;
+  outline: none;
 }
 
+/* botão */
 button {
-  padding: 10px 15px;
+  background: #ff7043;
   border: none;
-  border-radius: 8px;
-  background: #ff4d4d;
+  padding: 10px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 0 #bf360c;
 }
 
 button:hover {
-  background: #ff1a1a;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #bf360c;
 }
 
 /* lista */
@@ -57,11 +67,13 @@ ul {
   padding: 0;
 }
 
+/* item */
 li {
-  background: #3a3a3a;
+  background: #ffe0b2;
+  border: 3px solid #ff7043;
+  border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
-  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,6 +81,6 @@ li {
 
 /* botão delete */
 li button {
-  background: #ff3333;
-  padding: 5px 10px;
+  background: #e53935;
+  box-shadow: 0 3px 0 #b71c1c;
 }
