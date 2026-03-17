@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:8080/coffees
+url: http://localhost:8080/coffees
+method: GET
+body:
+  type: json
+  content: ""
+order: 1773782725280
