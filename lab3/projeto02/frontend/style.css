@@ -41,7 +41,7 @@ input {
   font-size: 14px;
 }
 
-/* botão */
+/* botão servir */
 button {
   background: #ff7043;
   border: none;
@@ -121,7 +121,7 @@ li {
   }
 }
 
-/* botão delete */
+/* botão de deletar */
 li button {
   background: #e53935;
   box-shadow: 0 3px 0 #b71c1c;
