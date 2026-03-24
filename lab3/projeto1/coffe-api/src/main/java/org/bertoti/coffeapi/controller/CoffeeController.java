@@ -23,26 +23,22 @@ public class CoffeeController {
         return repository.findAll();
     }
 
-    // GET por id
     @GetMapping("/{id}")
     public Coffee getById(@PathVariable String id) {
         return repository.findById(id).orElse(null);
     }
 
-    // POST
     @PostMapping
     public Coffee create(@RequestBody Coffee coffee) {
         return repository.save(coffee);
     }
 
-    // PUT
     @PutMapping("/{id}")
     public Coffee update(@PathVariable String id, @RequestBody Coffee coffee) {
         coffee.setId(id);
         return repository.save(coffee);
     }
 
-    // DELETE
     @DeleteMapping("/{id}")
     public void delete(@PathVariable String id) {
         repository.deleteById(id);
