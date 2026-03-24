@@ -41,7 +41,7 @@ input {
   font-size: 14px;
 }
 
-/* botão */
+/* botão servir */
 button {
   background: #ff7043;
   border: none;
@@ -63,7 +63,7 @@ button:active {
   box-shadow: 0 2px 0 #bf360c;
 }
 
-/* animação da xícara */
+/* animação do cafézinho */
 .cup {
   position: absolute;
   top: 40px;
@@ -121,7 +121,7 @@ li {
   }
 }
 
-/* botão delete */
+/* botão de deletar */
 li button {
   background: #e53935;
   box-shadow: 0 3px 0 #b71c1c;
