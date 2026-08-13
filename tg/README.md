@@ -84,8 +84,103 @@ LINKEDIN: www.linkedin.com/in/giovanna-marques-221998397
 </h1>
 </div>
 
+<h3>
+  API-1
+</h3>
+
+<br><br>
+
+<h3 align="center">
+  SUPER CALCULADORA SQUAD
+</h3>
+
+```
+ANO: 2025.1
+EMPRESA PARCEIRA: FATEC
+```
+
 ---
 
+<h2>
+  Aplicação de Cálculo de Sequências Lógicas:
+</h2>
+Este projeto tem como objetivo desenvolver uma aplicação de cálculo de sequências lógicas, com foco no aprimoramento do raciocínio lógico e na resolução de problemas de programação. A aplicação visa fornecer aos usuários uma ferramenta prática para analisar e calcular sequências numéricas, fundamentais para o desenvolvimento de habilidades de programação e análise de dados.
+
+<h2>
+  Objetivos: 
+</h2>
+
+<ul>
+  <li>Aprofundar o entendimento de padrões e sequências numéricas, essenciais para a programação e análise de dados.</li>
+  <li>Aplicar conceitos lógicos aprendidos em problemas reais de programação, facilitando a aprendizagem prática.</li>
+  <li>Aprimorar o raciocínio lógico e analítico, habilidades cruciais em diversas áreas da ciência da computação e outras disciplinas.</li>
+  <li>Resolver problemas complexos, identificando e entendendo padrões numéricos.</li>
+  <li>Criar estruturas de dados e modelar fenômenos matemáticos e lógicos de maneira eficiente.</li>
+</ul>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <h3>Tecnologias para Dev:</h3>
+        <p>
+          <img src="https://skillicons.dev/icons?i=git,github,visualg" />
+        </p>
+        <hr />
+      </td>
+      <td width="50%" align="center" valign="top">
+        <h3>Tecnologias para Comunicação:</h3>
+        <p>
+          <img src="https://skillicons.dev/icons?i=discord,whatsapp" />
+        </p>
+        <hr />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h3>
+  Contribuições Pessoais:
+</h3>
+<details>
+<summary><b> Atuação como DEV:</b></summary>
+<br>
+<b> <b>
+</details>
+
+---
+  <table border="0">
+    <tr>
+      <td width="50%" valign="top">
+<h3>
+  HARD SKILLS
+</h3>
+
+``` 
+ALGORITMOS: ██████████ 100%
+VISUALG: ██████████ 100%
+
+```
+   </td>
+      <td width="50%" valign="top">
+<h3>
+  SOFT SKILLS
+</h3>
+
+``` 
+COMUNICAÇÃO: █████████░ 90%
+TRABALHO EM EQUIPE & COLABORAÇÃO: ██████████ 100%
+RESILIÊNCIA: ██████████ 100%
+```
+ </td>
+    </tr>
+  </table>      
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=8B0000&height=4&section=header" width="100%" />
+
+<h3>
+  API-3
+</h3>
   <img src="img/ipem.png" width="1500px">
 
 <br><br>
