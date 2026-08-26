@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Giovanna%20Marques%20Rodrigues&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Dev%20Backend%20%26%20Data%20Intelligence%20-%20Sao%20Jose%20dos%20Campos&descAlignY=56&descAlign=50" width="100%" />
+<img src="assets/banner-header.svg" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6A0DAD?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2C0A4D)](https://www.linkedin.com/in/giovanna-marques-221998397)
 [![Email](https://img.shields.io/badge/Email-6A0DAD?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2C0A4D)](mailto:giovannamrodrigues2006@gmail.com)
@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Sumário
 
@@ -25,7 +25,7 @@ Meus projetos
 Contato
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Sobre mim
 
@@ -55,7 +55,7 @@ public class Giovanna {
 
 Sou profissional em início de carreira na área de tecnologia, estudante de Tecnologia em Banco de Dados com vivência prática em ambiente corporativo através de estágio supervisionado. Possuo base sólida em Orientação a Objetos, com foco em Java (Spring Boot, REST APIs) e no desenvolvimento de bancos de dados relacionais, com domínio em Oracle SQL e MySQL — modelagem e normalização inclusas. Busco integrar uma equipe dinâmica como desenvolvedora ou analista, aplicando foco em eficiência, qualidade de código e soluções estruturadas que gerem valor real ao negócio.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Trajetória até a FATEC
 
@@ -74,7 +74,7 @@ Minha trajetória na área de tecnologia começou ainda no ensino médio, no Fra
 
 Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso superior de Tecnologia em Banco de Dados. Depois de uma análise aprofundada da matriz curricular e das metodologias de ensino das duas instituições, identifiquei um maior alinhamento do perfil da FATEC com meus objetivos pessoais e profissionais, e optei por consolidar minha formação acadêmica nela.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Formação acadêmica
 
@@ -83,7 +83,7 @@ Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso
 | Tecnologia em Banco de Dados | FATEC São José dos Campos — Prof. Jessen Vidal | Noturno · 4º semestre | 2025 — atualmente | Em andamento |
 | Ensino Médio Integral | Francisco Pereira da Silva Professor | Integral | 2022 — 2024 | Completo |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Estágio e atuação profissional
 
@@ -116,7 +116,7 @@ foco:
 
 Essa vivência profissional foi essencial para minha atuação nos projetos acadêmicos: o contato diário com Java e SQL em ambiente corporativo me deu segurança para propor soluções, revisar código já existente e discutir decisões de arquitetura com o restante da equipe nos projetos da FATEC.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Cursos e certificações complementares
 
@@ -131,7 +131,7 @@ Essa vivência profissional foi essencial para minha atuação nos projetos acad
 | CSS3 | Curso em Vídeo | 40h | Completo |
 | Fundamentos de Redes | Cisco Networking Academy | 70h | Completo |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Idiomas
 
@@ -140,7 +140,7 @@ Essa vivência profissional foi essencial para minha atuação nos projetos acad
 | Inglês | Intermediário | Em curso |
 | Alemão | Iniciante | — |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Stack e nível de domínio
 
@@ -236,7 +236,7 @@ gestao_tempo_autonomia: "████████░░"  80%
 - **Adaptabilidade**: facilidade e rapidez para aprender novas tecnologias e metodologias conforme a necessidade do projeto.
 - **Gestão de tempo e autonomia**: organização diária com atenção rigorosa aos detalhes, mesmo conciliando estágio e graduação.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Meus projetos
 
@@ -575,7 +575,7 @@ Este módulo teve a trajetória mais interessante do projeto do ponto de vista d
 
 > Projetos das APIs 1 e 2, de semestres anteriores, entram aqui em breve, seguindo o mesmo formato acima.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+<img src="assets/banner-divider.svg" width="100%" />
 
 ## Contato
 
@@ -586,6 +586,6 @@ Este módulo teve a trajetória mais interessante do projeto do ponto de vista d
 [![WhatsApp](https://img.shields.io/badge/%2B55%20(12)%2098132--2911-6A0DAD?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=2C0A4D)](https://wa.me/5512981322911)
 [![GitHub](https://img.shields.io/badge/GitHub-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/Markeis24)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=120&section=footer" width="100%" />
+<img src="assets/banner-footer.svg" width="100%" />
 
 </div>
