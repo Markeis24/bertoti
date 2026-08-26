@@ -1,105 +1,196 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Giovanna%20Marques%20Rodrigues&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Tecnologia%20em%20Banco%20de%20Dados%20%E2%80%94%20FATEC%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos&descAlignY=56&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Giovanna%20Marques%20Rodrigues&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Dev%20Backend%20%26%20Data%20Intelligence%20%E2%80%94%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos&descAlignY=56&descAlign=50" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6A0DAD?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2C0A4D)](https://www.linkedin.com/in/giovanna-marques-221998397)
 [![Email](https://img.shields.io/badge/Email-6A0DAD?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2C0A4D)](mailto:giovannamrodrigues2006@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/%2B55%20(12)%2098132--2911-6A0DAD?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=2C0A4D)](https://wa.me/5512981322911)
 [![GitHub](https://img.shields.io/badge/GitHub-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/Markeis24)
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## Índice
+## Sumário
 
 ```txt
-01. Sobre mim
-02. Trajetória até a FATEC
-03. Estágio e atuação profissional
-04. Stack e nível de domínio
-05. Projeto em destaque — IPEM Control
-06. Arquitetura da solução
-07. Minhas entregas, sprint a sprint
-08. Contribuições técnicas em detalhe
-09. Desafios técnicos enfrentados
-10. Competências desenvolvidas
-11. Contato
+Sobre mim
+Trajetória até a FATEC
+Formação acadêmica
+Estágio e atuação profissional
+Cursos e certificações complementares
+Idiomas
+Stack e nível de domínio
+Meus projetos
+Contato
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 01 · Sobre mim
+## Sobre mim
 
 ```java
 public class Giovanna {
 
-    private final String curso        = "Tecnologia em Banco de Dados";
-    private final String instituicao  = "FATEC São José dos Campos";
-    private final int    ingresso     = 2025;
-    private final int    semestreAtual = 3;
+    private final String nome          = "Giovanna Marques Rodrigues";
+    private final String titulo        = "Dev Backend & Data Intelligence";
+    private final String localizacao   = "São José dos Campos, SP";
+    private final String curso         = "Tecnologia em Banco de Dados";
+    private final String instituicao   = "FATEC São José dos Campos — Prof. Jessen Vidal";
+    private final String periodo       = "Noturno · 4º semestre";
 
-    private final List<String> foco = List.of(
-            "Back-end", "Front-end", "Administração de Banco de Dados (DBA)"
+    private final List<String> focoTecnico = List.of(
+            "Orientação a Objetos (POO)",
+            "Java · Spring Boot · REST API",
+            "Bancos de dados relacionais — Oracle SQL, MySQL"
     );
 
     private final Estagio estagio = new Estagio(
-            "Tudo de Bicho",
-            List.of("Java", "Oracle", "ERP Sankhya")
+            "Tudo de Bicho", "Estagiária de TI", List.of("Java", "Sankhya", "SQL")
     );
 
-    record Estagio(String empresa, List<String> stack) {}
+    record Estagio(String empresa, String cargo, List<String> stack) {}
 }
 ```
 
-Sou estudante de Tecnologia em Banco de Dados na FATEC São José dos Campos, com atuação prática tanto em desenvolvimento back-end quanto em modelagem e administração de bancos de dados. Concilio a graduação com um estágio em que trabalho diariamente com Java em ambiente corporativo, o que me deu uma base sólida antes mesmo de encarar meu primeiro projeto acadêmico de maior porte em Spring Boot.
+Sou profissional em início de carreira na área de tecnologia, estudante de Tecnologia em Banco de Dados com vivência prática em ambiente corporativo através de estágio supervisionado. Possuo base sólida em Orientação a Objetos, com foco em Java (Spring Boot, REST APIs) e no desenvolvimento de bancos de dados relacionais, com domínio em Oracle SQL e MySQL — modelagem e normalização inclusas. Busco integrar uma equipe dinâmica como desenvolvedora ou analista, aplicando foco em eficiência, qualidade de código e soluções estruturadas que gerem valor real ao negócio.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 02 · Trajetória até a FATEC
+## Trajetória até a FATEC
 
 ```txt
 ensino_medio
-  └─ itinerário formativo com lógica de programação e algoritmos
-       └─ caravanas científicas — Universidade Federal de São Paulo (UNIFESP)
-            └─ convite para curso preparatório de vestibular pela própria UNIFESP
-                 └─ aprovação simultânea em UNIFESP e FATEC
-                      └─ escolha pela FATEC após comparar matriz curricular
-                           └─ ingresso em Tecnologia em Banco de Dados — 2025
+  └─ Francisco Pereira da Silva Professor — Ensino Médio Integral (2022-2024)
+       └─ itinerário formativo com lógica de programação e algoritmos
+            └─ caravanas científicas — Universidade Federal de São Paulo (UNIFESP)
+                 └─ convite para curso preparatório de vestibular pela própria UNIFESP
+                      └─ aprovação simultânea em UNIFESP e FATEC
+                           └─ escolha pela FATEC após comparar matriz curricular
+                                └─ ingresso em Tecnologia em Banco de Dados — 2025
 ```
 
-Minha trajetória na área de tecnologia começou ainda no ensino médio, por meio do itinerário formativo que oferecia aulas de lógica de programação e algoritmos. Paralelamente, participei ativamente de caravanas científicas promovidas pela UNIFESP e, por conta desse engajamento, fui convidada a integrar um curso preparatório para o vestibular organizado pela própria instituição. Motivada pela presença do campus de São José dos Campos e pela oferta de cursos na área tecnológica, direcionei meus estudos com o objetivo de ingressar na universidade.
+Minha trajetória na área de tecnologia começou ainda no ensino médio, no Francisco Pereira da Silva Professor, por meio do itinerário formativo que oferecia aulas de lógica de programação e algoritmos. Paralelamente, participei ativamente de caravanas científicas promovidas pela UNIFESP e, por conta desse engajamento, fui convidada a integrar um curso preparatório para o vestibular organizado pela própria instituição. Motivada pela presença do campus de São José dos Campos e pela oferta de cursos na área tecnológica, direcionei meus estudos com o objetivo de ingressar na universidade.
 
-Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso superior de Tecnologia em Banco de Dados. Depois de uma análise aprofundada da matriz curricular e das metodologias de ensino das duas instituições, identifiquei um maior alinhamento do perfil da FATEC com meus objetivos pessoais e profissionais, e optei por consolidar minha formação acadêmica nela. Ingressei em 2025 e, desde então, venho aprimorando minhas competências técnicas com foco em desenvolvimento back-end, front-end e administração de banco de dados — uma combinação que se mostrou essencial na atuação que teria, um semestre depois, no projeto detalhado mais abaixo.
+Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso superior de Tecnologia em Banco de Dados. Depois de uma análise aprofundada da matriz curricular e das metodologias de ensino das duas instituições, identifiquei um maior alinhamento do perfil da FATEC com meus objetivos pessoais e profissionais, e optei por consolidar minha formação acadêmica nela.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 03 · Estágio e atuação profissional
+## Formação acadêmica
 
-No terceiro semestre da graduação — o mesmo período em que atuei no projeto IPEM Control — iniciei minha atuação como estagiária na empresa **Tudo de Bicho**, onde permaneço até o momento.
+| Curso | Instituição | Modalidade | Período | Situação |
+|---|---|---|---|---|
+| Tecnologia em Banco de Dados | FATEC São José dos Campos — Prof. Jessen Vidal | Noturno · 4º semestre | 2025 — atualmente | Em andamento |
+| Ensino Médio Integral | Francisco Pereira da Silva Professor | Integral | 2022 — 2024 | Completo |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+
+## Estágio e atuação profissional
+
+<table>
+<tr>
+<td width="70%">
+
+**Tudo de Bicho** — Estagiária de TI
+*2026 — atualmente*
+
+Atuo diretamente na plataforma Sankhya, onde desenvolvo e otimizo queries em SQL com foco em performance, garantindo a integridade e a agilidade na extração de dados corporativos. Utilizando meus conhecimentos em Java, participo ativamente do processo de code review junto aos colegas de trabalho para revisar o código-fonte, além de atuar no troubleshooting para identificação de falhas de lógica e resolução de bugs de backend nos sistemas.
+
+</td>
+<td width="30%" valign="top">
 
 ```yaml
 empresa: Tudo de Bicho
-plataforma: ERP Sankhya
-atividades:
-  - otimização de código já existente
-  - melhoria de rotinas em produção
-ecossistema:
-  linguagem: Java
-  banco_de_dados: Oracle
-ganho_principal: >
-  vivência prática e aprofundada em Java corporativo e em
-  gestão de bancos Oracle, aplicada depois ao projeto acadêmico
+cargo: Estagiária de TI
+plataforma: Sankhya (ERP)
+foco:
+  - performance de queries SQL
+  - code review
+  - troubleshooting
+  - resolução de bugs backend
 ```
 
-Essa vivência profissional foi essencial para minha atuação no projeto acadêmico: o contato diário com Java em ambiente corporativo me deu segurança para propor soluções, refatorar código já existente e discutir decisões de arquitetura com o restante da equipe — ainda que o IPEM Control fosse meu primeiro projeto em uma stack Spring Boot construída do zero, junto com uma squad.
+</td>
+</tr>
+</table>
+
+Essa vivência profissional foi essencial para minha atuação nos projetos acadêmicos: o contato diário com Java e SQL em ambiente corporativo me deu segurança para propor soluções, revisar código já existente e discutir decisões de arquitetura com o restante da equipe nos projetos da FATEC.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 04 · Stack e nível de domínio
+## Cursos e certificações complementares
+
+| Curso | Plataforma | Carga horária | Situação |
+|---|---|---|---|
+| Algoritmos | Curso em Vídeo | 40h | Completo |
+| Java POO | Curso em Vídeo | 40h | Completo |
+| MySQL | Curso em Vídeo | 40h | Completo |
+| Oracle Database | Alura | 82h | Completo |
+| C: Avançando na Linguagem | Alura | 8h | Completo |
+| HTML5 | Curso em Vídeo | 40h | Completo |
+| CSS3 | Curso em Vídeo | 40h | Completo |
+| Fundamentos de Redes | Cisco Networking Academy | 70h | Completo |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+
+## Idiomas
+
+| Idioma | Nível | Situação |
+|---|---|---|
+| Inglês | Intermediário | Em curso |
+| Alemão | Iniciante | — |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+
+## Stack e nível de domínio
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,oracle,idea,postman,maven,git,github,html,css,js" />
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,oracle,sqlite,c,docker,git,github,html,css,js,figma,linux,windows,idea" />
 </div>
+
+<br>
+
+**Linguagens e back-end**
+
+![Java](https://img.shields.io/badge/Java-6A0DAD?style=for-the-badge&logo=java&logoColor=white&labelColor=2C0A4D)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6A0DAD?style=for-the-badge&logo=springboot&logoColor=white&labelColor=2C0A4D)
+![REST API](https://img.shields.io/badge/REST_API-6A0DAD?style=for-the-badge&labelColor=2C0A4D)
+![JSON](https://img.shields.io/badge/JSON-6A0DAD?style=for-the-badge&logo=json&logoColor=white&labelColor=2C0A4D)
+![C](https://img.shields.io/badge/C-6A0DAD?style=for-the-badge&logo=c&logoColor=white&labelColor=2C0A4D)
+![POO](https://img.shields.io/badge/Orienta%C3%A7%C3%A3o_a_Objetos-6A0DAD?style=for-the-badge&labelColor=2C0A4D)
+
+**Bancos de dados**
+
+![Oracle SQL](https://img.shields.io/badge/Oracle_SQL-6A0DAD?style=for-the-badge&logo=oracle&logoColor=white&labelColor=2C0A4D)
+![MySQL](https://img.shields.io/badge/MySQL-6A0DAD?style=for-the-badge&logo=mysql&logoColor=white&labelColor=2C0A4D)
+![SQLite](https://img.shields.io/badge/SQLite-6A0DAD?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=2C0A4D)
+![Modelagem](https://img.shields.io/badge/Modelagem_%26_Normaliza%C3%A7%C3%A3o-6A0DAD?style=for-the-badge&labelColor=2C0A4D)
+
+**Ferramentas e DevOps**
+
+![Git](https://img.shields.io/badge/Git-6A0DAD?style=for-the-badge&logo=git&logoColor=white&labelColor=2C0A4D)
+![GitHub](https://img.shields.io/badge/GitHub-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)
+![Docker](https://img.shields.io/badge/Docker-6A0DAD?style=for-the-badge&logo=docker&logoColor=white&labelColor=2C0A4D)
+![Apache Maven](https://img.shields.io/badge/Apache_Maven-6A0DAD?style=for-the-badge&logo=apachemaven&logoColor=white&labelColor=2C0A4D)
+![Postman](https://img.shields.io/badge/Postman-6A0DAD?style=for-the-badge&logo=postman&logoColor=white&labelColor=2C0A4D)
+
+**Sistemas operacionais**
+
+![Windows](https://img.shields.io/badge/Windows-6A0DAD?style=for-the-badge&logo=windows&logoColor=white&labelColor=2C0A4D)
+![Linux](https://img.shields.io/badge/Linux-6A0DAD?style=for-the-badge&logo=linux&logoColor=white&labelColor=2C0A4D)
+
+**Front-end e UI/UX**
+
+![HTML5](https://img.shields.io/badge/HTML5-6A0DAD?style=for-the-badge&logo=html5&logoColor=white&labelColor=2C0A4D)
+![CSS3](https://img.shields.io/badge/CSS3-6A0DAD?style=for-the-badge&logo=css3&logoColor=white&labelColor=2C0A4D)
+![JavaScript](https://img.shields.io/badge/JavaScript-6A0DAD?style=for-the-badge&logo=javascript&logoColor=white&labelColor=2C0A4D)
+![Figma](https://img.shields.io/badge/Figma-6A0DAD?style=for-the-badge&logo=figma&logoColor=white&labelColor=2C0A4D)
+![Canva](https://img.shields.io/badge/Canva-6A0DAD?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C0A4D)
+
+**Produtividade e inovação**
+
+![IA Generativa](https://img.shields.io/badge/IA_Generativa-6A0DAD?style=for-the-badge&labelColor=2C0A4D)
+![Pacote Office](https://img.shields.io/badge/Pacote_Office-6A0DAD?style=for-the-badge&logo=microsoftoffice&logoColor=white&labelColor=2C0A4D)
 
 <br>
 
@@ -107,16 +198,17 @@ Essa vivência profissional foi essencial para minha atuação no projeto acadê
 <tr>
 <td width="50%" valign="top">
 
-**Hard skills**
+**Nível de domínio — hard skills**
 
 ```yaml
-java:       "████████░░"  80%
-spring:     "██████░░░░"  60%
-sql:        "███████░░░"  70%
-banco_dba:  "███████░░░"  70%
-postman:    "█████████░"  90%
-maven:      "██████░░░░"  60%
-intellij:   "██████████" 100%
+java:              "████████░░"  80%
+spring_boot:       "██████░░░░"  60%
+sql_oracle_mysql:  "███████░░░"  70%
+modelagem_dados:   "███████░░░"  70%
+postman:           "█████████░"  90%
+git_github:        "████████░░"  80%
+maven:             "██████░░░░"  60%
+html_css_js:       "██████░░░░"  60%
 ```
 
 </td>
@@ -125,73 +217,44 @@ intellij:   "██████████" 100%
 **Soft skills**
 
 ```yaml
-comunicacao:         "█████████░"  90%
-trabalho_em_equipe:  "██████████" 100%
-pensamento_critico:  "████████░░"  80%
-adaptabilidade:      "█████████░"  90%
-resiliencia:         "██████████" 100%
+pensamento_analitico:   "█████████░"  90%
+proatividade:           "██████████" 100%
+comunicacao_equipe:     "█████████░"  90%
+adaptabilidade:         "█████████░"  90%
+gestao_tempo_autonomia: "████████░░"  80%
 ```
 
 </td>
 </tr>
 </table>
 
-| Ferramenta | Onde apliquei |
-|---|---|
-| `Java 21` | Todos os módulos backend que desenvolvi — controllers, services, repositories e entidades |
-| `Spring Boot 3.2` | Estrutura REST, injeção de dependência (`@Autowired`), camadas MVC |
-| `Spring Data JPA` | Repositories com métodos derivados e consultas `@Query` nativas |
-| `MySQL` | Modelagem de tabelas e escrita de queries agregadas (`GROUP BY`, `JOIN`, `SUM`, `COUNT`) |
-| `Postman` | Validação manual de cada endpoint antes da integração com o front-end |
-| `IntelliJ IDEA` | IDE principal de desenvolvimento no projeto e no estágio |
-| `Git / GitHub` | Fluxo com branches por sprint, commits semânticos e resolução de merges |
+#### Soft skills — como se manifestam no meu dia a dia
+
+- **Pensamento analítico e resolução de problemas**: foco em identificar a raiz das falhas antes de propor soluções, priorizando eficiência.
+- **Proatividade e dedicação**: foco em cumprir prazos e entregar resultados com qualidade, mesmo sob restrição de tempo.
+- **Comunicação e trabalho em equipe**: colaboração ativa e troca clara de informações com o time em todas as etapas do desenvolvimento.
+- **Adaptabilidade**: facilidade e rapidez para aprender novas tecnologias e metodologias conforme a necessidade do projeto.
+- **Gestão de tempo e autonomia**: organização diária com atenção rigorosa aos detalhes, mesmo conciliando estágio e graduação.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 05 · Projeto em destaque — IPEM Control
+## Meus projetos
 
-<div align="center">
+### Em 2026-1
 
-### Sistema de Controle e Análise de Abastecimento das Viaturas do IPEM
+## IPEM Control
 
-*Regional de São José dos Campos*
+### Empresa Parceira: [IPEM-SP](https://www.ipem.sp.gov.br)
 
-[![Backend](https://img.shields.io/badge/Backend-API3__BACKEND-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/SquadTech-API/API3_BACKEND)
-[![Frontend](https://img.shields.io/badge/Frontend-API3__FRONTEND-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/SquadTech-API/API3_FRONTEND)
-[![Squad](https://img.shields.io/badge/Squad-SquadTech--API-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/SquadTech-API)
-[![Empresa](https://img.shields.io/badge/Parceira-IPEM--SP-6A0DAD?style=for-the-badge&labelColor=2C0A4D)](https://www.ipem.sp.gov.br)
+### Problema:
 
-</div>
+O controle de abastecimento das viaturas da Regional de São José dos Campos do IPEM era realizado inteiramente de forma manual. Os condutores registravam em pranchetas físicas mantidas dentro de cada veículo informações como quilometragem, quantidade de combustível, valor abastecido e identificação do condutor. Ao final de cada período, o Diretor da unidade precisava reunir manualmente todas essas anotações, conferi-las individualmente e consolidar os dados para controle interno e posterior digitação no sistema corporativo SGI. Esse fluxo manual comprometia diretamente a eficiência da gestão da frota, tornando difícil realizar análises comparativas entre viaturas, acompanhar o consumo médio de combustível de cada uma delas ou identificar rapidamente inconsistências nos registros.
 
-#### O problema
+### Solução Entregue pela Equipe:
 
-```txt
-antes:
-  condutor    → anota km, litros, valor e identificação em prancheta física
-  diretor     → recolhe todas as pranchetas manualmente
-              → confere cada anotação uma por uma
-              → digita tudo no sistema corporativo SGI
+A equipe desenvolveu um sistema web que permite o registro digital dos abastecimentos diretamente pelos condutores, a validação gerencial das informações e a geração automatizada de relatórios analíticos. A aplicação foi dividida em backend, em Java com Spring Boot, responsável pela API REST, pelas regras de negócio e pela persistência dos dados em MySQL; e frontend, em HTML, CSS e JavaScript, consumindo essa API. O sistema contempla cadastro e gerenciamento de viaturas e técnicos, abertura e fechamento de registros de saída de veículo com cálculo automático de quilometragem rodada, registro de abastecimentos vinculados a cada saída, controle de trocas de óleo com alertas de manutenção preventiva, e um conjunto de relatórios e dashboards analíticos exportáveis em PDF, Excel, CSV e Word.
 
-consequência:
-  - impossível comparar viaturas rapidamente
-  - consumo médio de combustível sem visibilidade
-  - inconsistências só descobertas tarde demais
-```
-
-O controle de abastecimento da frota do IPEM era feito inteiramente em pranchetas físicas dentro de cada veículo. Ao final de cada período, o Diretor da unidade precisava reunir manualmente todas as anotações, conferi-las individualmente e só então consolidar os dados para digitação no SGI. Esse fluxo comprometia a eficiência da gestão: análises comparativas entre viaturas, acompanhamento do consumo médio e identificação de inconsistências levavam tempo demais para acontecer.
-
-#### A solução da squad
-
-```txt
-depois:
-  condutor    → registra abastecimento direto no sistema web
-  sistema     → valida os dados na entrada
-              → estrutura tudo em banco relacional
-  gestor      → acessa dashboards e relatórios analíticos prontos
-              → exporta em PDF, Excel, CSV ou Word quando precisa
-```
-
-A equipe construiu uma aplicação web dividida em backend (Java + Spring Boot, responsável pela API REST, regras de negócio e persistência) e frontend (HTML, CSS e JavaScript, consumindo a API). O sistema contempla cadastro de viaturas e técnicos, abertura e fechamento de registros de saída com cálculo automático de quilometragem, registro de abastecimentos, controle de trocas de óleo com alertas preventivos, e um conjunto de relatórios e dashboards analíticos exportáveis.
+[Repositório Backend](https://github.com/SquadTech-API/API3_BACKEND) · [Repositório Frontend](https://github.com/SquadTech-API/API3_FRONTEND)
 
 #### Tecnologias Utilizadas
 >
@@ -203,9 +266,7 @@ A equipe construiu uma aplicação web dividida em backend (Java + Spring Boot, 
 > - **Postman**: Utilizado para validar manualmente cada endpoint que desenvolvi antes da integração com o time de front-end.
 > - **Git e GitHub**: Controle de versão em fluxo por sprint (branches `Sprint-1`, `Sprint-2`...), com commits referenciando o número da issue trabalhada.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
-
-## 06 · Arquitetura da solução
+#### Arquitetura da solução
 
 ```mermaid
 flowchart TD
@@ -223,9 +284,7 @@ flowchart TD
 
 O backend segue arquitetura em camadas: o **Controller** recebe a requisição HTTP e devolve DTOs — nunca a entidade JPA diretamente, evitando expor o modelo interno e problemas de serialização em relacionamentos. O **Service** concentra as regras de negócio, como impedir que um técnico abra uma nova saída enquanto já tem outra em andamento. O **Repository**, sobre Spring Data JPA, combina métodos derivados de nome com consultas nativas mais elaboradas, usadas nos relatórios agregados. As **Entities** mapeiam as tabelas do MySQL, com relacionamentos `@ManyToOne` conectando Registro de Saída, Veículo e Técnico.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
-
-## 07 · Minhas entregas, sprint a sprint
+#### Minhas entregas, sprint a sprint
 
 ```mermaid
 timeline
@@ -244,7 +303,8 @@ timeline
         Refatoracao : contrato JSON alinhado ao front
 ```
 
-### Sprint 1 — Fundação do sistema
+<details>
+<summary><strong>Sprint 1 — Fundação do sistema (tabela de entregas)</strong></summary>
 
 | Data | Issue | Entrega |
 |---|---|---|
@@ -255,7 +315,10 @@ timeline
 | 03/04 | `#A03.B` | Registro de uso de viatura, com validações e endpoint de listagem de veículos ativos |
 | 04/04 | — | Ajustes de infraestrutura (`.gitignore`) e correção de erros na entidade `Veiculo` e seu controller |
 
-### Sprint 2 — Dashboard analítico e histórico de uso
+</details>
+
+<details>
+<summary><strong>Sprint 2 — Dashboard analítico e histórico de uso (tabela de entregas)</strong></summary>
 
 | Data | Issue | Entrega |
 |---|---|---|
@@ -265,17 +328,18 @@ timeline
 | 27/04 | `#T04.1B` | Entidade `HistoricoUso` e repository ordenado pela data mais recente |
 | 28/04 | `#T04.3B` | Endpoint completo de histórico por viatura (Controller, Service, DTO) |
 
-### Sprint 3 — Refino e integração com o front-end
+</details>
+
+<details>
+<summary><strong>Sprint 3 — Refino e integração com o front-end (tabela de entregas)</strong></summary>
 
 | Data | Issue | Entrega |
 |---|---|---|
 | 28/04 | `#T04` | Refatoração do endpoint de histórico com base no contrato de dados definido pela equipe de front-end |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
+</details>
 
-## 08 · Contribuições técnicas em detalhe
-
-Nesta seção, aprofundo tecnicamente as entregas mais relevantes das tabelas acima, com o código real que escrevi e o raciocínio por trás de cada decisão.
+#### Contribuições Pessoais
 
 <details>
   <summary>Cadastro de viaturas — modelagem da entidade e regras de integridade (Sprint 1, #16 #18)</summary>
@@ -460,9 +524,7 @@ public List<HistoricoUsoCardDTO> listarHistoricoPorVeiculo(Integer idVeiculo) {
 Este módulo teve a trajetória mais interessante do projeto do ponto de vista de aprendizado. Na Sprint 2, criei a entidade `HistoricoUso` como uma tabela dedicada, pensando em registrar eventos de uso de forma independente. Quando o time de front-end fechou o contrato definitivo de dados na Sprint 3, ficou claro que o histórico completo por viatura precisava combinar informações que já existiam espalhadas em outras tabelas — quem dirigiu, qual serviço foi feito, quantos km rodou e se houve abastecimento naquela saída — e não fazia sentido duplicar esses dados em uma tabela própria, sob risco de ficarem dessincronizados. Refatorei o serviço para calcular o histórico dinamicamente a partir de `RegistroSaida`, cruzando com `Abastecimento` via `findByRegistroSaida` para decidir o booleano `abasteceu`, que o front-end usa para destacar a linha em verde. Um detalhe da ordenação: o comparador trata explicitamente saídas com `dataHoraSaida` nula, jogando-as para o fim da lista em vez de deixar o `compareTo` lançar `NullPointerException` — um erro que só apareceria em produção, com dados reais incompletos, e não nos testes manuais do Postman com dados sempre preenchidos.
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
-
-## 09 · Desafios técnicos enfrentados
+#### Desafios técnicos enfrentados
 
 ```txt
 [1] consultas SQL agregadas
@@ -487,10 +549,6 @@ Este módulo teve a trajetória mais interessante do projeto do ponto de vista d
     exceções de referência nula.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
-
-## 10 · Competências desenvolvidas
-
 #### Hard Skills
 
 - **Java** : Sei fazer com autonomia
@@ -513,14 +571,19 @@ Este módulo teve a trajetória mais interessante do projeto do ponto de vista d
 
 **Resiliência**: Persisti na depuração de erros de integridade em relacionamentos JPA — como referências nulas na entidade `Veiculo` e em seu controller — revisando anotações `@ManyToOne` e `@JoinColumn` até a estabilização completa do módulo.
 
+<br>
+
+> Projetos das APIs 1 e 2, de semestres anteriores, entram aqui em breve, seguindo o mesmo formato acima.
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6A0DAD&height=3&section=header" width="100%" />
 
-## 11 · Contato
+## Contato
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6A0DAD?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2C0A4D)](https://www.linkedin.com/in/giovanna-marques-221998397)
 [![Email](https://img.shields.io/badge/Email-6A0DAD?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2C0A4D)](mailto:giovannamrodrigues2006@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/%2B55%20(12)%2098132--2911-6A0DAD?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=2C0A4D)](https://wa.me/5512981322911)
 [![GitHub](https://img.shields.io/badge/GitHub-6A0DAD?style=for-the-badge&logo=github&logoColor=white&labelColor=2C0A4D)](https://github.com/Markeis24)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=120&section=footer" width="100%" />
