@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Giovanna%20Marques%20Rodrigues&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Dev%20Backend%20%26%20Data%20Intelligence%20%E2%80%94%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos&descAlignY=56&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Giovanna%20Marques%20Rodrigues&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Dev%20Backend%20%26%20Data%20Intelligence%20-%20Sao%20Jose%20dos%20Campos&descAlignY=56&descAlign=50" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6A0DAD?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2C0A4D)](https://www.linkedin.com/in/giovanna-marques-221998397)
 [![Email](https://img.shields.io/badge/Email-6A0DAD?style=for-the-badge&logo=gmail&logoColor=white&labelColor=2C0A4D)](mailto:giovannamrodrigues2006@gmail.com)
