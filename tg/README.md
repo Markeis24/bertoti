@@ -10,6 +10,12 @@
 
 <img src="assets/banner-divider.svg" width="100%" />
 
+<div align="center">
+
+<img src="assets/Giovanna.png" width="30%" />
+
+</div>
+
 <h2 align="center">Sumário</h2>
 
 <div align="center">
