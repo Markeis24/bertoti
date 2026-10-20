@@ -205,6 +205,7 @@ Essa vivência profissional foi essencial para minha atuação nos projetos acad
 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" hspace="4" alt="linux" />
 <img src="https://skillicons.dev/icons?i=windows" width="48" height="48" hspace="4" alt="windows" />
 <img src="https://skillicons.dev/icons?i=idea" width="48" height="48" hspace="4" alt="idea" />
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" hspace="4" alt="vscode" />
 <img src="assets/oracle-database.png" width="48" height="48" hspace="4" alt="Oracle Database" />
 <img src="assets/oracle-cloud.png" width="48" height="48" hspace="4" alt="Oracle Cloud" />
 </div>
