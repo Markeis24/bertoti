@@ -25,7 +25,19 @@
 <div align="center">
 
 ``
-Sobre mim · Trajetória até a FATEC · Formação acadêmica<br>Estágio e atuação profissional · Cursos e certificações<br>Idiomas · Stack e nível de domínio · Meus projetos · Contato
+Sobre mim · Trajetória até a FATEC · Formação acadêmica
+``
+
+<br>
+
+``
+Estágio e atuação profissional · Cursos e certificações
+``
+
+<br>
+
+``
+Idiomas · Stack e nível de domínio · Meus projetos · Contato
 ``
 
 </div>
