@@ -8,7 +8,11 @@
 
 </div>
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <div align="center">
 
@@ -26,7 +30,11 @@ Sobre mim · Trajetória até a FATEC · Formação acadêmica<br>Estágio e atu
 
 </div>
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Sobre mim</h2>
 
@@ -56,7 +64,11 @@ public class Giovanna {
 
 Sou profissional em início de carreira na área de tecnologia, estudante de Tecnologia em Banco de Dados com vivência prática em ambiente corporativo através de estágio supervisionado. Possuo base sólida em Orientação a Objetos, com foco em Java (Spring Boot, REST APIs) e no desenvolvimento de bancos de dados relacionais, com domínio em Oracle SQL e MySQL — modelagem e normalização inclusas. Busco integrar uma equipe dinâmica como desenvolvedora ou analista, aplicando foco em eficiência, qualidade de código e soluções estruturadas que gerem valor real ao negócio.
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Trajetória até a FATEC</h2>
 
@@ -75,7 +87,11 @@ Minha trajetória na área de tecnologia começou ainda no ensino médio, no Fra
 
 Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso superior de Tecnologia em Banco de Dados. Depois de uma análise aprofundada da matriz curricular e das metodologias de ensino das duas instituições, identifiquei um maior alinhamento do perfil da FATEC com meus objetivos pessoais e profissionais, e optei por consolidar minha formação acadêmica nela.
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Formação acadêmica</h2>
 
@@ -88,7 +104,11 @@ Fui aprovada tanto na UNIFESP quanto no processo seletivo da FATEC, para o curso
 
 </div>
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Estágio e atuação profissional</h2>
 
@@ -121,7 +141,11 @@ foco:
 
 Essa vivência profissional foi essencial para minha atuação nos projetos acadêmicos: o contato diário com Java e SQL em ambiente corporativo me deu segurança para propor soluções, revisar código já existente e discutir decisões de arquitetura com o restante da equipe nos projetos da FATEC.
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Cursos e certificações complementares</h2>
 
@@ -140,9 +164,13 @@ Essa vivência profissional foi essencial para minha atuação nos projetos acad
 
 </div>
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
 
 <h2 align="center">Idiomas</h2>
+
+</div>
 
 <div align="center">
 
@@ -153,7 +181,11 @@ Essa vivência profissional foi essencial para minha atuação nos projetos acad
 
 </div>
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Stack e nível de domínio</h2>
 
@@ -272,7 +304,11 @@ gestao_tempo_autonomia: "████████░░"  80%
 - **Adaptabilidade**: facilidade e rapidez para aprender novas tecnologias e metodologias conforme a necessidade do projeto.
 - **Gestão de tempo e autonomia**: organização diária com atenção rigorosa aos detalhes, mesmo conciliando estágio e graduação.
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Meus projetos</h2>
 
@@ -624,7 +660,11 @@ Este módulo teve a trajetória mais interessante do projeto do ponto de vista d
 
 > Projetos das APIs 1 e 2, de semestres anteriores, entram aqui em breve, seguindo o mesmo formato acima.
 
-<img src="assets/banner-divider.png" width="100%" />
+<div align="center">
+
+<img src="assets/banner-divider.png" width="70%" />
+
+</div>
 
 <h2 align="center">Contato</h2>
 
